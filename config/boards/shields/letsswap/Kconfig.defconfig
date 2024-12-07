@@ -1,14 +1,14 @@
-if SHIELD_LETSSWAP_LEFT
+if SHIELD_TOME_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Let's Swap"
+    default "Tome"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_LETSSWAP_LEFT || SHIELD_LETSSWAP_RIGHT
+if SHIELD_TOME_LEFT || SHIELD_TOME_RIGHT
 
 config ZMK_SPLIT
     default y

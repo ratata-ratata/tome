@@ -1,4 +1,4 @@
-#include "letsswap.dtsi"
+#include "tome.dtsi"
 
 &default_transform {
     col-offset = <6>;
